@@ -1,10 +1,16 @@
 {
-  "name": "mini-project",
+  "name": "16-stu-body-parsing",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "uuid": "^8.3.2"
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server",
+    "watch": "nodemonserver"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
