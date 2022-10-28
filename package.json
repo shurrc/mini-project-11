@@ -1,5 +1,5 @@
 {
-  "name": "16-stu-body-parsing",
+  "name": "mini-project",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node server",
-    "watch": "nodemonserver"
+    "watch": "nodemon server"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
